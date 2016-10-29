@@ -7,7 +7,6 @@
      <style type="text/css">
 	 #certain{
 	position: absolute;
-	height: 1440px;
 	width: 100%;
 	z-index: -1;
 	left: 0px;
@@ -47,10 +46,10 @@
             text-decoration: none;
         }
         #slide {
-            width: 825px;
-            height: 443px;
-            box-shadow: 0px 0px 5px #c1c1c1;
-            position: relative;
+            width: 443px;
+            height: 400px;
+            box-shadow: 2px 2px 5px  #c1c1c1;
+            position:absolute;
             overflow: hidden;
         }
         #slide ul {
@@ -116,17 +115,17 @@
 }
      #roll_picture {
 	background-color: #F3F3F3;
-	height: 443px;
 	width: 375px;
 	padding-left:15px;
-	margin:40px  0;
+	padding-top:15px;
+	margin:523px  0;
 	float:left;
+	border:#9F0;
 }
      #presonal_information {
 	width: 375px;
-	height: 443px;
+	
 	background-color: #F3F3F3;
-	margin-top:40px;
 	margin-left:60px;
 	float:left;
 }
@@ -211,7 +210,15 @@
 <div id="certain">
   <div id="top_background">
   	<div id="head"><img src="mian_html/head.png" alt="" width="134" height="133" /></div>
-  	<div id="guide_logo"><img src="mian_html/guide_logo.png" alt="" width="825" height="69" /></div>
+  	<div id="guide_logo"><img src="mian_html/guide_logo.png" alt="" width="825" height="69" usemap="#Map" />
+      <map name="Map" id="Map">
+        <area shape="rect" coords="0,-1,209,67" href="file:///G|/xhtml/newid.html" target="new" style="outline:none;"alt="" onclick="" />
+        <area shape="rect" coords="212,0,362,67" href="file:///G|/xhtml/newid.html" target="new"style="outline:none;" alt="" />
+        <area shape="rect" coords="365,3,511,65" href="file:///G|/xhtml/newid.html" target="new"style="outline:none;" alt="" />
+        <area shape="rect" coords="518,0,666,67" href="file:///G|/xhtml/newid.html" target="new"style="outline:none;" alt="" />
+        <area shape="rect" coords="671,1,828,69" href="file:///G|/xhtml/newid.html" target="new"style="outline:none;" alt="" />
+      </map>
+  	</div>
   </div>
   	<div id="mian_body">
      <div id="slide">//
@@ -236,16 +243,24 @@
             <a href="javascript:void(0);"></a>
         </div>
        <div id="roll_picture">
-       <marquee direction="up" scrolldelay="100" scrollamount="1"  >
-       这里写一些公告和置顶活动<br>
-       这里写一些公告和置顶活动<br>
-       这里写一些公告和置顶活动<br>
-       这里写一些公告和置顶活动<br>
-       这里写一些公告和置顶活动<br>
-       这里写一些公告和置顶活动
+       <marquee direction="up" scrolldelay="100" scrollamount="3"  >
+       <a href="file:///G|/xhtml/newid.html" target="new"> 这里写一些公告和置顶活动<br><br />
+       这里写一些公告和置顶活动<br><br />
+       这里写一些公告和置顶活动<br><br />
+       这里写一些公告和置顶活动<br><br />
+       这里写一些公告和置顶活动<br><br />
+       这里写一些公告和置顶活动</a>
        </marquee>
        </div>
-       <div id="presonal_information">个人信息简略介绍（填补空缺。。。。。。。。。。。）</div>
+       <div id="presonal_information">
+       <br><br />
+       <br><br />
+        <a href="file:///G|/xhtml/newid.html" target="new">&nbsp;RNG.UZI：孤独行者的追梦路 一步三年 09/22<br><br />
+		&nbsp;从低谷重返巅峰 回顾EDG的两年坎坷路 09/21<br><br />
+		&nbsp;LPL夏季赛数据大揭密：一血王竟然是他？ 09/15<br><br />
+		&nbsp;2016全球总决赛：分组抽签入门指南 09/07<br><br />
+		&nbsp;2016全球总决赛抽签仪式9月11日举行 09/07<br><br />
+		&nbsp;什么是2016全球总决赛？</a></div>
     </div> 
   </div>
 </div>
