@@ -1,0 +1,247 @@
+*{
+	font-family: "Arial";
+}
+
+body{
+	margin: 0px;
+	
+}
+
+#register_box{
+	position: relative;
+	z-index: 2;
+	background-color: #FFFFFF;
+	height: 600px;
+	width: 400px;
+	margin:10% auto;
+	opacity: 1;
+	box-shadow: 5px 5px 5px #8F8F94;
+}
+
+
+#submit_1{
+	position: absolute;
+	color: #303030;
+	background-color: #88DB6B;
+	border-radius: 6px;
+	height: 40px;
+	width: 100px;
+	bottom: 20px;
+	left: 37%;
+     font-weight:bold;
+     font-size: 16px;
+
+	
+}
+#submit_1:hover{
+	background-color: #5CA941;
+}
+
+#submit_1{
+	
+}
+
+#div_main_0{
+	z-index: -1;
+	margin: 0px;
+}
+#div_main{
+
+	position:fixed;
+	background-image: url(../image/lubo/3.jpg);
+	width: 100%; 
+	height: 100%; 
+	z-index: -1; 
+	left: 0;
+	 top: 0;
+	background-size: 100% 100%;
+	
+}
+
+
+#username{
+	           
+	            background-color: #FAFAFA;
+	            border: 1px solid #ccc; 
+                padding: 7px 0px;
+                border-radius: 3px; /*css3属性IE不支持*/
+                padding-left:5px; 
+                margin: 35% 10%;
+                width: 320px;
+                height: 17px;
+                font-size: 16px;
+}
+#username:focus{    
+	                background-color: #FFFFFF;
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+
+
+
+
+#user_n{
+	font-stretch: 10px;
+	position: absolute;
+	margin: 38% 10%;
+	font-family: "Arial";
+	left: 0px;
+	top: -39px;
+	width: 64px;
+	font-weight:bold;
+}
+
+
+
+#username_tag{
+	position: absolute;
+	font-size: 12px;
+	color: #767687;
+	margin: 4% 7%;
+	font-family: "Arial";
+	left: 13px;
+	top: 165px;
+}
+
+
+
+#email_name{
+	position: absolute;
+	font-stretch: 10px;
+	left: 41px;
+	top: 217px;
+	font-weight:bold;
+	
+	
+}
+#email_contet{
+	position: absolute;
+	border: 1px solid #ccc;
+	width: 320px;
+	height: 17px;
+	font-size: 16px;
+	background-color: #FAFAFA;
+	padding: 7px 0px;
+	border-radius: 3px; /*css3属性IE不支持*/
+	padding-left: 5px;
+	margin: 10%;
+	left: 1px;
+	top: 204px;
+}
+
+
+#email_contet:focus{
+	background-color: #FFFFFF;
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+
+
+#email_tag{
+	position: absolute;
+	font-size: 12px;
+	color: #767687;
+	margin: 30% 7%;
+	font-family: "Arial";
+	left: 13px;
+	top: 165px;
+}
+
+
+
+#password_name{
+	position: absolute;
+	font-stretch: 10px;
+	left: 41px;
+	top: 319px;
+	font-weight: bold;
+}
+
+#password_conted{
+	position: absolute;
+	width: 320px;
+	background-color: #FAFAFA;
+	border: 1px solid #ccc;
+	padding: 7px 0px;
+	border-radius: 3px; /*css3属性IE不支持*/
+	padding-left: 5px;
+	margin: 35% 10%;
+	height: 17px;
+	font-size: 16px;
+	top: 205px;
+}
+
+#password_conted:focus{
+	                   background-color: #FFFFFF;
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+         
+}
+
+
+#password_tag{
+	position: absolute;
+	font-size: 12px;
+	color: #767687;
+	margin: 33% 7%;
+	font-family: "Arial";
+	left: 14px;
+	top: 252px;
+}
+
+
+
+#repassowrd_name{
+	position: absolute;
+	font-stretch: 10px;
+	left: 42px;
+	top: 420px;
+	font-weight: bold;
+	height: 1px;
+}
+
+
+#repassword_conted{
+	position: absolute;
+	width: 320px;
+	background-color: #FAFAFA;
+	border: 1px solid #ccc;
+	padding: 7px 0px;
+	border-radius: 3px; /*css3属性IE不支持*/
+	padding-left: 5px;
+	margin: 42% 10%;
+	height: 17px;
+	font-size: 16px;
+	top: 278px;
+	left: 1px;
+}
+
+
+#repassword_conted:focus{
+	 background-color: #FFFFFF;
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+         
+
+
+}
+
+#div_logo{
+	position: absolute;
+	font-size: 40px;
+	width: 120px;
+	height: 30px;
+	margin: auto;
+	left: 151px;
+	top: 39px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
