@@ -48,7 +48,7 @@ body{
 #div_main{
 
 	position:fixed;
-	background-image: url(../image/lubo/3.jpg);
+	background-image: url(../image/register-background.png);
 	width: 100%; 
 	height: 100%; 
 	z-index: -1; 

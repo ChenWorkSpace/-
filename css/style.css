@@ -1,12 +1,133 @@
 
-#container{
-	column-width: 400px;
-	-moz-column-width: 400px;
-	-moz-column-gap: 5px;
+.call_box{
+	
+	width: 0px;
+	height: 0px;
+	top: 10px;
+	border-color: transparent  #FFFFFF  transparent transparent;
+	border-width: 10px;
+	border-style: solid;
+	left: -20px;
+	position: absolute;
+	
+	
+	
 }
 
-#container div{
-	width: 400px;
-	height: 400px;
-	margin: 5px 0;
+
+
+.dialog_box{
+	color: #969696;
+	position: absolute;
+	width: 260px;
+	height: 70px;
+	border-style: solid;
+	border-radius: 0px;
+	border-color: #FFFFFF  #FFFFFF #DDDDDD #FFFFFF;
+	border-width: 0px 0px 2px 0px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	margin-bottom: 1px;
+	font-weight: bold;
+	z-index: 1;
+	margin:10px 700px;
+
+	
+	}
+
+
+.dialog_box span{
+	
+	
+	 border-color:   transparent  transparent transparent;
+}
+
+
+.call_box_white{
+	
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-width:14.5px ;
+	border-style: solid;
+	left: -8px;
+	top: -14.5px;
+	border-color: transparent  transparent transparent transparent; 
+}
+
+
+.dialog_button{
+	position: absolute;
+	background-color:#A87851;
+	border-width: .05px;
+	border-color: #A88664;
+	border-radius: 0px;
+	height: 25px;
+	width: 65px;
+	bottom: 10px;
+	color:   #FFFFE9;
+	right: 8%;
+     font-weight:bold;
+     font-size: 10px;
+
+}
+
+.lengch{
+	
+	
+	background-color:#D7E4ED ;
+	height: 200px;
+	width: 4px;
+	margin: 0 650px;
+}
+
+
+.round_image{
+	z-index: 0;
+	position:  absolute;
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-color: #FFFFFF;
+	border-radius: 50%;
+	border-style: solid;
+	background-size: 100%;
+	background-color: transparent;
+	margin: 0 625px;
+	background- align-content: center;
+	
+	
+}
+
+img{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	left: 0px;
+	top: 0px;
+	
+}
+
+
+
+
+#main_boxs{
+	
+   	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image:url(../image/time/time_background.png);
+	position: fixed;
+	width: 100%;
+	height: 100%; 
+	z-index: -1; 
+	left: 0; 
+	top: 0;	
+}
+
+#main_dialogs {
+	position: relative;
+	z-index: 2;
+>>>>>>> 第一版
 }

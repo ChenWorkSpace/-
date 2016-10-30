@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>测试时光轴</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<script type="text/javascript" src="js/new_file.js" ></script>
+	</head>
+	<body>
+		<div id="continer">
+			<div class="dialog_box">
+				这是一个对话框
+				<div id="dialog_main_box">
+					<div class="call_box">
+					<span ></span>
+					<div class="call_box_white">
+						<span></span>
+					</div>
+				</div>
+				</div>
+			</div>
+			<script>
+			var q,s;
+				function func(a ,b){
+					q=a+b;
+					
+				}
+				func("陈","广平");
+			</script>
+			<input type="text" id="content" onchange="Demo(this)" / >
+			<input type="button" id="btn" value="按钮" />
+			<script>
+			  function Demo(obj){
+			  	obj.style.backgroundColor="green";
+			  	 alert("Changed");
+			  }
+			</script>
+			
+			<script>
+				document.getElementById("btn").addEventListener("click",function demo(){
+					alert("欢迎")
+				});
+			</script>
+	</body>
+</html>
